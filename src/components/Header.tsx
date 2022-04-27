@@ -1,5 +1,5 @@
 import { LogoSmall } from "assets/images";
-import media from "assets/styles/media";
+import media from "styles/media";
 import React, { ReactElement } from "react";
 import styled, { css } from "styled-components";
 

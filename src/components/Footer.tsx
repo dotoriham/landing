@@ -1,7 +1,7 @@
 import { PointerSmallIcon } from "assets/icons";
 import { LogoWhite, LogoWhiteSmall } from "assets/images";
-import media from "assets/styles/media";
-import { flexCenter } from "assets/styles/utils";
+import media from "styles/media";
+import { flexCenter } from "styles/utils";
 import React, { ReactElement } from "react";
 import styled from "styled-components";
 

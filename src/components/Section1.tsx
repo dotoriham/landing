@@ -1,7 +1,7 @@
 import { PointerIcon } from "assets/icons";
 import { LogoIMG, S1DesktopIMG, S1MobileIMG } from "assets/images";
-import media from "assets/styles/media";
-import { flexCenter, flexColumn, pagelayout } from "assets/styles/utils";
+import media from "styles/media";
+import { flexCenter, flexColumn, pagelayout } from "styles/utils";
 import Image from "components/Image";
 import SectionTemplate from "components/SectionTemplate";
 import SectionTitle from "components/SectionTitle";

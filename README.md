@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# <div align="center"> dotoriham</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### <div align="center">흩어진 북마크를 보관하고 공유하고 알림을 받아보세요!⚡</div>
 
-## Available Scripts
+<div align="center">
+    <a href="https://dotoriham.kr">👉도토리함 바로가기👈</a>
+</div>
 
-In the project directory, you can run:
+<br />
 
-### `yarn start`
+## 기획의도💡
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 기존 북마크 서비스들은 "업무용 정보를 저장하는 직장인"에 한정된 서비스를 제공 중으로, "일상용 정보를 저장하는 사용자"들로 타겟을 확장하여 서비스를 제공하고자 하였다.
+- 업무용 정보와 일상용 정보의 유형별로 북마크 이용 행태가 다양하기에 이에 적합한 서비스를 제공하고자 하였다.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br />
 
-### `yarn test`
+## 핵심기능💡
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **리마인드 알람 설정**
+  - 북마크를 저장한 이후 다시 읽어보지 않거나 잊어버려 효율성이 떨어지는 사용자들을 위해 필요한 기능
+  - 북마크 별로 리마인드 알람을 설정할 수 있게 하여 리마인드 설정 주기에 따라 웹푸시 발송
+- **맴버 초대 기능**
+  - 관심사가 같은 지인들과 인사이트 공유가 필요한 사용자들을 위해 필요한 기능
+  - 초대한 맴버드르 간 북마크 하는 내용을 공유 받을 수 있으며, 모두에게 편집 권한을 부여하여 북마크 보관 및 관리를 용이하게 함
+- **트리메뉴 구조로 보관**
+  - 저장하는 정보의 유형이 다양함에 따라 세분화된 관리가 필요한 사용자들을 위한 기능
+  - 1depth로만 저장 가능한 서비스들과 달리 사용자가 지정하는 만큼 세분화하여 북마크를 보관할 수 있게 함으로써 관리의 효율성 증대
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br />

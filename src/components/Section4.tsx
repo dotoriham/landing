@@ -1,6 +1,6 @@
 import { S4DesktopIMG, S4MobileIMG } from "assets/images";
-import media from "assets/styles/media";
-import { flexColumn, pagelayout } from "assets/styles/utils";
+import media from "styles/media";
+import { flexColumn, pagelayout } from "styles/utils";
 import CirclePoint from "components/CirclePoint";
 import Image from "components/Image";
 import SectionTemplate from "components/SectionTemplate";
