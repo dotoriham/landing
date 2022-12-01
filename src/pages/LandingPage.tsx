@@ -10,6 +10,7 @@ import styled from "styled-components";
 const LandingWrapper = styled.div`
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 `;
 
 function LandingPage(): ReactElement {
