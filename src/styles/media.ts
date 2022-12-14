@@ -3,6 +3,7 @@ export const mediaQuery = (maxWidth: number) => `
 `;
 
 const media = {
+  wide: mediaQuery(1720),
   desktop: mediaQuery(1220),
   tablet: mediaQuery(1068),
   mobile: mediaQuery(550),
