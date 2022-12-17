@@ -14,26 +14,29 @@ const SectionInner = styled.div`
   ${pagelayout}
   padding: 232px 0 208px 186px;
   flex-flow: row-reverse;
+  ${media.wide} {
+    width: 1660px;
+    padding: 232px 0 208px 45px;
+  }
   ${media.desktop} {
     width: 1300px;
     padding: 232px 0 208px 45px;
   }
-  ${media.tablet} {
-    padding: 80px 0 0 0;
+  ${media.desktop} {
+    padding: 232px 0 0 0;
     width: 100%;
+    margin: 0 auto;
   }
 `;
 
 const ContentBox = styled.div`
-  width: 1254px;
   height: 358px;
   position: relative;
-  overflow: hidden;
+  width: 100%;
   ${media.tablet} {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    width: 100%;
     height: auto;
   }
 `;
